@@ -1,7 +1,6 @@
 #!/bin/bash
 # add_controller_public_key_to_auth.sh
-public_key='ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA1ZJpcbXkW/CXmP/GKV6PxgrQAlOXpLXRHdPLDtR56SG1/l3BA4RcaupYIELCL++bib9l9UOw1G0GS4GjOeoAINY9/7qfPXJu0vubb6zBmJyMJmQn3ivcwBuYbrEuTVDTiEvBVH9C0t4evgupl8+TEYYwv9V8u3M0oXwqIGOrAPVbmK3+QDVmCbGc+YLLyv0IR9384HMTE9OXXJnC0Vaci5KZUqQIB3IK7y1QIJjRFyTxw10j+q0TyLqlrC/yVJ4Why8FoTPaWcE3pRPbmuuQvXMBSCUlAp2dZWyPn06gJAZGVzYSfxrOqEXcIKqnUzLdBxDwoORJgbmFVrybDwvt szb53@c2.ryu-controllers.ch-geni-net.instageni.umkc.edu'
-
+public_key='xxxxx'
 cat >> ~/.ssh/authorized_keys << EOF
 $public_key
 EOF
